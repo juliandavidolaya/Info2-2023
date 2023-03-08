@@ -4,7 +4,7 @@ import pymongo
 from datetime import datetime
 
 # Establecer conexión con la base de datos de MongoDB
-client = pymongo.MongoClient("mongodb+srv://julianolaya:<passwooorr-ojo-noolvidar>@cluster0.2ujzn4v.mongodb.net/test")
+client = pymongo.MongoClient("mongodb+srv://julianolaya:<jul54ola82>@cluster0.2ujzn4v.mongodb.net/test")
 database = client["clinica_veterinaria"]
 collection = database["mascotas_hospitalizadas"]
 
